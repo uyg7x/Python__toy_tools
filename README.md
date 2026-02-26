@@ -53,8 +53,8 @@ python sort_people.py
 
 A modern **Task Manager–style** desktop app built with **Python + CustomTkinter**.
 Live **CPU / RAM / Disk / Network / Battery**, **real-time charts**, **active connections viewer**, and **CSV export** — clean, fast, and portfolio-ready.
+<img width="631" height="502" alt="Screenshot 2026-02-27 003240" src="https://github.com/user-attachments/assets/53eea160-658c-4ea0-93b9-70d0a2fb8392" />
 
-<img width="631" height="502" alt="Screenshot 2026-02-27 003240" src="https://github.com/user-attachments/assets/689dbfdd-62da-4abb-8294-dde066c41e30" />
 
 ## Features
 
