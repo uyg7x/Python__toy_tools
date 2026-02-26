@@ -47,3 +47,41 @@ python sort_people.py
 * Addresses can contain spaces (OK).
 * If output shows only header, fix CSV line breaks (one record per line).
 * Use **fake/sample data only** (don’t upload real personal info).
+
+
+   # SysPulse ⚡ — System Monitor GUI (Python)
+
+A modern **Task Manager–style** desktop app built with **Python + CustomTkinter**.
+Live **CPU / RAM / Disk / Network / Battery**, **real-time charts**, **active connections viewer**, and **CSV export** — clean, fast, and portfolio-ready.
+
+<img width="631" height="502" alt="Screenshot 2026-02-27 003240" src="https://github.com/user-attachments/assets/689dbfdd-62da-4abb-8294-dde066c41e30" />
+
+## Features
+
+* ⏱️ Updates every **1s**
+* 📊 Mini charts (last ~60s): CPU, RAM, Net Up/Down
+* 🌐 Active connections: PID + process + local/remote + status
+* 🪫 Battery status + time left (if available)
+* 📁 Export: snapshot CSV (+ optional Windows app-usage CSV)
+
+## Run
+
+```bash
+python -m venv .venv
+# Windows: .\.venv\Scripts\Activate.ps1
+# Linux/Mac: source .venv/bin/activate
+pip install -r requirements.txt
+python -m app.main
+```
+
+## Build EXE (Windows)
+
+```bash
+pip install pyinstaller
+pyinstaller --noconsole --onefile --name SysPulse app/main.py
+```
+
+## Privacy
+
+Runs **locally**. No data is uploaded. Exports are saved to `reports/`.
+
